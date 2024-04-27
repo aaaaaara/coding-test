@@ -1,5 +1,6 @@
 'use strict';
 
+//나의 답변
 function solution(a, b) {
     let result = 0;
     let ab = a.toString() + b.toString()

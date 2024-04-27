@@ -12,19 +12,19 @@
 	result = "lovelovelovelovelovelovelovelovelovelove"
 */
 
-//repeat메서드 사용
+//나의 답변 repeat메서드 사용
 function solution(my_string, k) {
-    var answer = my_string.repeat(k);
-    
-    return answer;
+  var answer = my_string.repeat(k);
+
+  return answer;
 }
 
-//for문
+//for문 답변 참고
 function solution2(my_string, k) {
-    var answer = '';
-    
-    for(let i = 0; i < k; i++) {
-        answer += my_string; 
-    }
-    return answer;
+  var answer = '';
+
+  for (let i = 0; i < k; i++) {
+    answer += my_string;
+  }
+  return answer;
 }
