@@ -7,3 +7,5 @@
 function solution(a, b, flag) {
   return flag ? a + b : a - b;
 }
+
+//계속 if문으로 쓰다가 삼항연산자로 써보았음
