@@ -13,4 +13,12 @@
     a와 b는 1 이상 6 이하의 정수입니다.
 */
 
-function solution(a, b) {}
+function solution(a, b) {
+  if (a % 2 !== 0 && b % 2 !== 0) {
+    return Math.pow(a, 2) + Math.pow(b, 2);
+  }
+  if (a % 2 !== 0 || b % 2 !== 0) {
+    return 2 * (a + b);
+  }
+  return Math.abs(a - b);
+}
