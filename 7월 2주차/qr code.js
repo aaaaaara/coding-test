@@ -5,7 +5,6 @@
 function solution(q, r, code) {
   let answer = [];
   let codeArr = code.split('');
-  console.log(code);
 
   return (answer = codeArr
     .map((code, i) => {
