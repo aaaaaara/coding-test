@@ -12,3 +12,7 @@ function solution(num_list) {
     }
   });
 }
+
+/*
+    곱하기 경우, initail value가 0이 있으면 안되므로 주의
+*/
